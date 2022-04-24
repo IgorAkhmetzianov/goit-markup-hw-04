@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway?query=ral#:~:text=%3Clink%20rel%3D%22preconnect%22%20href%3D%22https%3A//fonts.googleapis.com%22%3E%0A%3Clink%20rel%3D%22preconnect%22%20href%3D%22https%3A//fonts.gstatic.com%22%20crossorigin%3E%0A%3Clink%20href%3D%22https%3A//fonts.googleapis.com/css2%3Ffamily%3DRaleway%3Awght%40700%26family%3DRoboto%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C900%3B1%2C400%26display%3Dswap%22%20rel%3D%22stylesheet%22%3E">
     <title>WebStudio</title>
 </head>
 <body>
     <header class="header">
-        <a href="index.html" lang="en" class="header-logo">
-            <span class="header-logo-color">Web</span>
-            <span>Studio</span>
-        </a> 
-        <nav class="header-navigation">
-            <ul class="header-list">
-                <li class="header-item"><a href="" class="header-link-active">Студия</a></li>
-                <li class="header-item"><a href="" class="header-link" >Портфолио</a></li>
-                <li class="header-item"><a href="" class="header-link" >Контакты</a></li>
+        <div class="header-container">
+            <a href="index.html" lang="en" class="header-logo">
+                <span class="header-logo-color">Web</span>
+                <span>Studio</span>
+            </a> 
+            <nav class="header-navigation">
+                <ul class="header-list">
+                    <li class="header-item"><a href="" class="header-link-active">Студия</a></li>
+                    <li class="header-item"><a href="" class="header-link" >Портфолио</a></li>
+                    <li class="header-item"><a href="" class="header-link" >Контакты</a></li>
+                </ul>
+            </nav> 
+            <div class="header-contact"> 
+            <ul class="contacts-list">
+                <li class="contact-item"><a class="header-mail" href="mail:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contact-item"><a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav> 
-        <ul class="contacts-list">
-            <li class="contact-item"><a class="header-mail" href="mail:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="contact-item"><a class="header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+            </div>
+        </div>
     </header>
         <main>
             <section class="hero" >
+            <div class="hero-container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="hero-btn">Заказать услугу</button>
+            </div>
             </section>
             <section class="content">
+                <div class="container">
                 <h2 class="visually-hidden">Наши преимущества</h2>
                 <ul class="content-list list">
                     <li class="content-item">
@@ -51,8 +59,10 @@
                         <p class="content-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+                </div>
             </section>
             <section class="work">
+                <div class="container">
                 <h2 class="section-work-title">Чем мы занимаемся</h2>
                 <ul class="work-list list">
                     <li class="work-icon"><img src="./images/img1.jpg" width="370" alt="компьютер и планшет"></li>
@@ -84,9 +94,11 @@
                         <p lang="en" class="team-text">UI Designer</p>
                     </li>
                 </ul>
+                </div>
             </section>
         </main>
         <footer class="footer">
+            <div class="footer-container">
             <a href="index.html" class="footer-logo"> <span class="footer-logo-color">Web</span> <span>Studio</span></a>
             <address class="footer-addres">
             <ul class="footer-list">
@@ -95,6 +107,7 @@
                 <li class="footer-item"><a class="footer-text" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
             </address>
+            </div>
         </footer>
 </body>
 </html>

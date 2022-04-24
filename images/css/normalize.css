@@ -1,0 +1,33 @@
+
+.header{
+    background: #FFFFFF; 
+}
+.btn-list{
+    list-style:none ;
+}
+.button-secondary {
+    font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.icon-list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.portfolio-sample {
+    font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-info {
+    font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}

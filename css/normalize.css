@@ -1,33 +1,68 @@
 
-.header{
+.header {
     background: #FFFFFF; 
+
 }
-.btn-list{
+
+.btn-list {
     list-style:none ;
+    display: flex;
+    justify-content: center;
 }
 .button-secondary {
+    border: none;
+    margin-right: 8px;
     font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
-.icon-list{
+
+.button-secondary:hover,
+.button-secondary:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    justify-content: space-between;
+    padding: 0;
     list-style: none;
 }
-.link{
+
+.icon {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.link {
     text-decoration: none;
 }
+
+
+
 .portfolio-sample {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
     font-weight: 700;
-font-size: 18px;
-line-height: 2.0;
-letter-spacing: 0.06em;
-color: #212121;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 .portfolio-info {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 24px;
     font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: #757575;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }

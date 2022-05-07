@@ -42,11 +42,6 @@ ul {
     background-color: var(--header-bg-color);
 }
 
-a {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
 .header-elements {
     display: flex;
 }

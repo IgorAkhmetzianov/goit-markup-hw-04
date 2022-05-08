@@ -169,7 +169,11 @@ p {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: var(--footer-bg-color);
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .items-center {
@@ -364,6 +368,30 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     text-align: center;
+    margin-bottom: 16px;
+}
+
+
+.manager-soc-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.manager-soc-item {
+    margin-left: 10px;
+}
+
+.manager-soc-item:first-child {
+    margin-left: 0;
+}
+
+.manager-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: block;
 }
 
 /*-------------footer------------*/

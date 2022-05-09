@@ -378,6 +378,10 @@ img {
 
 }
 
+.manager-soc-list {
+    margin-bottom: 30px;
+}
+
 .manager-soc-item {
     margin-left: 10px;
 }
@@ -389,10 +393,25 @@ img {
 .manager-soc-link {
     width: 44px;
     height: 44px;
-    background-color: tomato;
+    background-color: #FFFFFF;
     border-radius: 50%;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.manager-soc-icon {
+    fill: #AFB1B8;
+}
+
+.manager-soc-link:hover {
+    background-color: #2196F3;
+}
+
+.manager-soc-link:hover .manager-soc-icon {
+    fill: #FFFFFF;
+}
+
 
 /*-------------footer------------*/
 

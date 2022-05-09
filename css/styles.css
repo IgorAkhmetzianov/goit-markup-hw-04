@@ -136,7 +136,7 @@ ul {
     text-decoration: none;
 }
 
-.contact-item::before {
+.header-mail::before {
     content: "";
     width: 16px;
     height: 12px;

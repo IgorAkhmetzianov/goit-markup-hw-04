@@ -136,6 +136,13 @@ ul {
     text-decoration: none;
 }
 
+.contact-item::before {
+    content: "";
+    width: 16px;
+    height: 12px;
+    background-image: url(../images/icons.svg/envelope.svg);
+}
+
 .header-mail:hover {
     color: var(--second-hdr-text-color);  
 }

@@ -127,6 +127,14 @@ ul {
     padding-bottom: 32px;   
 }
 
+.header-mail ::before {
+    content: "";
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    background-image: url(../images/icons.svg/envelope.svg);
+}
+
 .header-mail {
     font-weight: 500;
     font-size: 14px;
@@ -134,13 +142,6 @@ ul {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     text-decoration: none;
-}
-
-.header-mail::before {
-    content: "";
-    width: 16px;
-    height: 12px;
-    background-image: url(../images/icons.svg/envelope.svg);
 }
 
 .header-mail:hover {
@@ -155,6 +156,15 @@ ul {
     color: var(--main-text-color);
     text-decoration: none;
     margin-left: 50px;
+}
+
+.header-tel::before {
+    content:"";
+    width: 10px;
+    height: 16px;
+    background-color: currentColor;
+    background-image: url(../images/icons.svg/smartphone.svg);
+
 }
 
 .header-tel:hover {

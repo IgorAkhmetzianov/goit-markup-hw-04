@@ -127,15 +127,17 @@ ul {
     padding-bottom: 32px;   
 }
 
-.header-mail ::before {
+.header-mail::before {
     content: "";
     width: 16px;
     height: 12px;
+    background-repeat: no-repeat;
     fill: currentColor;
-    background-image: url(../images/icons.svg/envelope.svg);
+    background-image: url('../images/icons.svg/envelope.svg');
 }
 
 .header-mail {
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -149,6 +151,7 @@ ul {
 }
 
 .header-tel {
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -162,8 +165,8 @@ ul {
     content:"";
     width: 10px;
     height: 16px;
-    background-color: currentColor;
-    background-image: url(../images/icons.svg/smartphone.svg);
+    background-repeat: no-repeat;
+    background-image: url('../images/icons.svg/smartphone.svg');
 
 }
 

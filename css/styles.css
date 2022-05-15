@@ -131,9 +131,10 @@ ul {
     content: "";
     width: 16px;
     height: 12px;
+    margin-right: 10px;
     background-repeat: no-repeat;
-    fill: currentColor;
     background-image: url('../images/icons.svg/envelope.svg');
+    fill: #757575;
 }
 
 .header-mail {
@@ -144,10 +145,14 @@ ul {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     text-decoration: none;
+    align-items: center;
+    fill: #757575;
 }
 
-.header-mail:hover {
-    color: var(--second-hdr-text-color);  
+.header-mail:hover ,
+.header-mail:focus {
+    color: var(--second-hdr-text-color); 
+    fill: var(--second-hdr-text-color); 
 }
 
 .header-tel {
@@ -165,6 +170,7 @@ ul {
     content:"";
     width: 10px;
     height: 16px;
+    margin-right: 10px;
     background-repeat: no-repeat;
     background-image: url('../images/icons.svg/smartphone.svg');
 
